@@ -1,0 +1,90 @@
+<!-- DF. Pietersen(2023822600)-->
+<!-- CSIS1664 (2023) Website Project-->
+<!-- Filename: reviews.html -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Attack: Feedback</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/styles.css">
+	</head>
+	
+	<body>
+		<div id="container">
+			<header>
+				<h1>Attack on Titan: The Story of Eren Yeager</h1>
+				<img src="images/Logo/Aot.png" height="187" width="640" alt="Attack on Titan Logo">
+			</header>
+				
+			<nav>
+				<a href="index.html">Home</a>&nbsp;&nbsp;
+				<a href="story.html">Story</a>&nbsp;&nbsp;
+				<a href="titans.html">The Titans</a>&nbsp;&nbsp;
+				<a href="characters.html">Characters</a>&nbsp;&nbsp;
+				<a href="universe.html">The Universe</a>&nbsp;&nbsp;
+				<a href="seasons.html">Seasons</a>&nbsp;&nbsp;
+				<a href="impact.html">Impact</a>&nbsp;&nbsp;
+				<a href="feedback.html" class="current">Feedback</a>&nbsp;&nbsp;
+				<a href="license.html">License</a>
+			</nav>
+			
+			<main>
+				<h1>Feedback</h1>
+				<p>
+					Please kindly complete the form below and give your opinion on how I can improve the site:)
+				</p>
+				<form action="respond.html">
+					<p>
+						<label for="name" id="NameLabel">Name: </label>
+						<input type="text" id="name" name="Name" autofocus required>
+					</p>
+					<!--Remember to add names-->
+					<p>
+						<label for="surname" id="SurnameLabel">Surname: </label>
+						<input type="text" id="surname" name="Surname" required>
+					</p>
+					
+					<p>
+						<label>Gender: </label>
+						<input type="radio" name="gender" id="male" checked>
+						<label for="male">Male</label> 
+						<input type="radio" name="gender" id="female">
+						<label for="female">Female</label> 
+					</p>
+
+					<p>
+						<fieldset>
+							<legend>Who is your favourite character out of the trio?</legend>
+							<input type="radio" name="character" id="eren" checked>
+							<label for="eren">Eren Yeager</label> <br>
+							<input type="radio" name="character" id="mikasa">
+							<label for="mikasa">Mikasa Ackerman</label> <br>
+							<input type="radio" name="character" id="armin">
+							<label for="armin">Armin Arlert</label>
+						</fieldset>
+					</p>
+								
+					<p>
+						<label for="comments" id="commentsLabel">How can I make this website better?(Optional): </label><br>
+						<textarea id="comments" rows="4" cols="50" name="Comments">
+						</textarea>
+					</p>
+					
+					<p>
+						<input type="submit" id="submitForm" value="Submit" name="Submit">
+						<input type="reset" id="resetForm" value="Clear" name="Resert">
+					</p>
+					
+				</form>
+			</main>
+			
+			<footer>
+				<hr>
+				<p>Last Updated: 06 October 2023</p>
+				<p>Created by: <a href="../myindex.html">DF. Pietersen</a>
+				<p>&copy; 2023 Darian Pietersen</p> 
+			</footer>
+		</div>
+	</body>
+</html>

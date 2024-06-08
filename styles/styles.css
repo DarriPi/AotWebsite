@@ -1,0 +1,343 @@
+/* DF. Pietersen(2023822600)
+  CSIS1664 (2023) Website Project
+  Filename: styles.css */
+
+/*General Styles for General Elements*/
+main {
+	position: relative;
+}
+
+body {
+	background-image: url("../images/Cabine_Near_The_Woods_Background.jpeg");
+	background-attachment: fixed;
+	background-position: right;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: scroll;
+}
+
+hr {
+	border: 2px solid #d2c4ae;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	margin-top: 20px;
+	background-color: #6f553f;
+	padding: 20px 0;
+}
+
+nav a {
+	color: #ffeccf; 
+	text-decoration: none;
+	font-size: 18px;
+	padding: 0 5px;
+	word-spacing: -2px;
+}	 
+
+div#container {
+	position: relative;
+	font-family: sans-serif;
+    font-size: relative;
+	line-height: 25px;
+	background-color: #ffeccf;
+    color: #black;/*Keep in mind for when you  want to change to black*/
+	width: 880px; 
+	margin: 0 auto;
+	padding: 0;
+	border: 3px solid #294023;
+}
+
+h1 , h2 , h3 {
+	color: #294023;
+	text-align: center;
+	word-spacing: 3px;
+}
+
+footer {
+	background-color: #6f553f;
+	color: #ffeccf;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+a.current {
+	color: #294023;
+}
+nav a:hover {
+	color: #294023;
+}
+footer a {
+	color: #ffeccf; 
+} 
+footer a:hover {
+	color: #294023;
+}
+
+p {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+table {
+	width: 860px;
+	margin: 0 auto;
+}
+
+/*Styles for the link in the HomePage*/
+#ListOfLinks li a {
+	color: #294023;
+}
+#ListOfLinks li {
+	padding-bottom: 8px;
+}
+
+/*Styles for the story webpage*/
+#TitanLooksOverWall 
+{
+	text-align: center;
+}
+.FloatRight {
+	float: right;
+	margin-right: 7px;
+	margin-left: 3px;
+	border: 1px solid black;
+}
+.FloatLeft
+{
+	float: left;
+	margin-right: 3px;
+	margin-left: 7px;
+	border: 1px solid black;
+}
+p.justifyParagraph {
+	text-align: justify;
+}
+/*Styles for the Titans webpage*/
+#CenterHint {
+	text-align: center;
+	color: #294023;
+	font-size: 20px;
+}
+p.TitansCenter {
+	text-align: center;
+}
+#NineTitansH1 {
+	color: #294023;
+	word-spacing: 40px;
+	position: absolute;  /*absolute positioning for my h1 element*/
+	left: 360px;
+	top: 80px;
+}
+p.TitanParagraph {
+	text-align: center;
+}
+.ZoomImage:hover {
+	transform: scale(1.2);
+}
+ul li {
+	margin-bottom: 5px;
+}
+div.TitanInfo {
+	border-bottom: 2px solid #294023;
+}
+h3.abilities 
+{
+	color: #6f553f;
+}
+
+.TitanFloatRight {
+	float: right;
+	margin-right: 70px
+}
+/*Specific Styles for the Characters page*/
+/*Styles for the table in the Characters Page*/
+table , th, td /*General*/
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table#CharactersTable th:nth-child(1) {
+	width: 150px;
+}
+table#CharactersTable td:nth-child(1), table#CharactersTable td:nth-child(2) {
+	text-align: center;
+}
+table tr:nth-child(odd)  /*General color scheme for the tables in the website*/
+{
+	background-color: #d2c4ae;
+}
+/* (5) Specific Styles for the Universe page*/
+p.WallsCenter {
+	text-align: center;
+}
+
+/*(6)*Styles for the Seasons webpage*/
+ol ol {
+	list-style-type: upper-roman;
+}
+ol li a {
+	color: #294023;
+	
+}
+ol li {
+	margin-bottom: 12px;
+}
+.ReturnTop {
+	color: #294023;
+}
+
+
+/*Styles for the Impact page*/
+table.AwardsTable , th ,  td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table.AwardsTable tr:nth-child(odd) {
+	background-color: #d2c4ae;
+}
+table.AwardsTable td:nth-child(2) , table.AwardsTable td:nth-child(3) {
+	text-align: center;
+}
+table.AwardsTable tr {
+	height: 50px;
+}
+
+/*Styles for the License site*/
+p.ImportantLinks a {
+	color: #294023;
+}
+
+
+/*Styles for the reviews page*/
+input {
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+label {
+	width: 70px;
+	text-align: right;
+	margin-left: 5px;
+}
+input:focus {
+	border: 3px solid #294023;
+}
+fieldset {
+	border: 2px solid #6f553f;
+}
+#submitForm {
+	color: #ffeccf;
+	background-color: #294023;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #294023;
+	margin: 0 13px 0 20px
+}
+#resetForm {
+	color: #ffeccf;
+	background-color: #6f553f;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #6f553f;
+}
+textarea {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+label#commentsLabel {
+	margin-left: 10px;
+}
+
+
+/*Styles for when someone wishes to print the webspages*/
+@media print {
+	div#container {
+		position: relative;
+		font-family: sans-serif;
+		font-size: 12pt;
+		background-color: white;
+		color: black;/*Keep in mind for when you  want to change to black*/
+		width: 900px; 
+		margin: 0;
+		padding: 0;
+		border: 3px solid black;
+	}
+	
+	body {
+		background-image: none;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	nav {
+		text-align: center;
+		margin-top: 20px;
+		padding: 20px 0;
+	}
+
+	nav a {
+		color: black; 
+		text-decoration: none;
+		font-size: 18px;
+		word-spacing: -2px;
+	}	 
+		
+	h1 , h2 , h3 {
+		color: black;
+		text-align: center;
+		word-spacing: 3px;
+	}
+
+	footer {
+		background-color: white;
+		color: black;
+		text-align: center;
+	}
+
+
+	footer a {
+		color: black; 
+	} 
+	
+	/*Specific print styles for the Titans page*/
+	#CenterHint {
+		text-align: center;
+		color: black;
+		font-size: 20px;
+	}
+	
+	p.TitansCenter {
+		text-align: center;
+	}
+	
+	#NineTitansH1 {
+		color: black;
+		word-spacing: 40px;
+	}
+	
+	p.TitanParagraph {
+		text-align: center;
+	}
+	
+	ul li {
+		margin-bottom: 5px;
+	}
+	
+	div.TitanInfo {
+		border-bottom: 2px solid black;
+	}
+	
+	h3.abilities 
+	{
+		color: black;
+	}
+}
